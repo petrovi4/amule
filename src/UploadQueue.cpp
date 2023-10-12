@@ -390,6 +390,8 @@ void CUploadQueue::AddClientToQueue(CUpDownClient* client)
 		return;
 	}
 
+	return;
+
 	client->AddAskedCount();
 	client->SetLastUpRequest();
 
